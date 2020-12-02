@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#divNotas{
+    width: 25%;
+    height: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-image: url(postit.png);
+    background-size: 100%;
+    position: absolute;
+    text-decoration-color: white;
+    left: 0%;
+    top: 0%;
+}
+
+#divPizarra{
+    width: 75%;
+    height: 100%;
+    padding-left: 0%;
+    padding-top: 0%;
+    background-image: url(fondo.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    font-family: cursive;
+    font-size: 300%;
+}
+
+#nota{
+    width: 60%;
+    height: 30%;
+    border-radius: 15%;
+    border-color: none;
+    background-image: url(postit.jpg);
+    background-size: 200%;
+    background-position-x: center;
+    background-color: transparent;
+    font-size: 200%;
+}
+
+#save{
+    height: 5%;
+    width: 20%;
+    border-radius: 10%;
+    background-color: teal;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+}
